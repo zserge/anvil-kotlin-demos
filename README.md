@@ -1,9 +1,9 @@
 # Anvil demos
 
-This is a collection of minimal apps to show various aspects of Anvil. All
-demos are written in Kotlin, which is a natural language of choice for Android
-platform these days. However, Anvil itself does not require Kotlin and can be
-used with Java 6 or newer.
+This is a collection of minimal apps to show various aspects of
+[Anvil](https://github.com/zserge/anvil). All demos are written in Kotlin,
+which is a natural language of choice for Android platform these days. However,
+Anvil itself does not require Kotlin and can be used with Java 6 or newer.
 
 These demos are purposely written in a simple and clear style.
 You will find no difficulty in following them to learn the powerful library.
