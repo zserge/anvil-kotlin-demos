@@ -32,6 +32,14 @@ shared across all the demos.
 
 # Index
 
+1. [Rendering a static layout](#demo-01-rendering-a-static-layout-source)
+1. [Binding data and event listeners](#demo-02-binding-data-and-event-listeners-source)
+1. [Refactoring, styles and components](#demo-03-refactoring-styles-and-components-source)
+1. [Adapters](#demo-04-adapters-source)
+1. [Accessing views directly](#demo-05-accessing-views-directly-source)
+1. [XML layouts](#demo-06-xml-layouts-source)
+1. [RenderableView](#demo-07-renderableview-source)
+
 # Demo 01: Rendering a static layout ([source](https://github.com/zserge/anvil-kotlin-demos/blob/master/demo01/src/main/java/com/example/MainActivity.kt))
 
 Anvil DSL syntax is very similar to
