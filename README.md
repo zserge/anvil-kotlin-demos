@@ -32,7 +32,7 @@ shared across all the demos.
 
 # Index
 
-# Demo 1: Rendering a static layout ([source](https://github.com/zserge/anvil-kotlin-demos/blob/master/demo01/src/main/java/com/example/MainActivity.kt))
+# Demo 01: Rendering a static layout ([source](https://github.com/zserge/anvil-kotlin-demos/blob/master/demo01/src/main/java/com/example/MainActivity.kt))
 
 Anvil DSL syntax is very similar to
 [Anko](https://github.com/Kotlin/ank://github.com/Kotlin/anko), which in its
