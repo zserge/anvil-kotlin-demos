@@ -42,9 +42,8 @@ shared across all the demos.
 
 # Demo 01: Rendering a static layout ([source](https://github.com/zserge/anvil-kotlin-demos/blob/master/demo01/src/main/java/com/example/MainActivity.kt))
 
-Anvil DSL syntax is very similar to
-[Anko](https://github.com/Kotlin/ank://github.com/Kotlin/anko), which in its
-turn follows the structure of traditional android XML layouts.
+Anvil DSL syntax is very similar to [Anko](https://github.com/Kotlin/anko),
+which in its turn follows the structure of traditional android XML layouts.
 
 ```kotlin
 Anvil.mount(findViewById(android.R.id.content)) {
