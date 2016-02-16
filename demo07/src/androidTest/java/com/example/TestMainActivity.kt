@@ -10,10 +10,10 @@ class MainActivityTest : ActivityInstrumentationTestCase2<MainActivity>(MainActi
 
 	override fun setUp() {
 		super.setUp()
-		getActivity()
+		activity
 	}
 
-	public fun testActivityButtonCanBeClicked() {
+	fun testActivityButtonCanBeClicked() {
 		onView(instanceOf(Button::class.java)).perform(click())
 	}
 }
