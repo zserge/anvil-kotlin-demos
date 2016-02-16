@@ -12,10 +12,10 @@ class MainActivityTest : ActivityInstrumentationTestCase2<MainActivity>(MainActi
 
 	override fun setUp() {
 		super.setUp()
-		getActivity()
+		activity
 	}
 
-	public fun testActivityShouldHaveText() {
+	fun testActivityShouldHaveText() {
 		onView(allOf(withParent(withId(android.R.id.content)), instanceOf(TextView::class.java)))
 			.check(matches(withText("Hello!")))
 	}

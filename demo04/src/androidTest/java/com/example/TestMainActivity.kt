@@ -10,10 +10,10 @@ class MainActivityTest : ActivityInstrumentationTestCase2<MainActivity>(MainActi
 
 	override fun setUp() {
 		super.setUp()
-		getActivity()
+		activity
 	}
 
-	public fun testActivityShouldHave100Items() {
+	fun testActivityShouldHave100Items() {
 		onData(`is`("Item #0")).check(matches(isDisplayed()))
 		onData(`is`("Item #99")).check(matches(isDisplayed()))
 	}

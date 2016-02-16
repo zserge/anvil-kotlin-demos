@@ -30,7 +30,7 @@ class MainActivityTest : ActivityInstrumentationTestCase2<MainActivity>(MainActi
 		};
 	}
 
-	public fun testActivityShouldHaveText() {
+	fun testActivityShouldHaveText() {
 		onView(withText(startsWith("Lorem"))).check(matches(withLineMultiplier(`is`(2f))))
 	}
 }

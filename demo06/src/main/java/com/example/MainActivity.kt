@@ -17,10 +17,10 @@ class MainActivity() : Activity() {
 			linearLayout {
 				orientation(LinearLayout.VERTICAL)
 
-				for ((i, name) in names.withIndex()) {
+				names.forEach {
 					xml(android.R.layout.simple_list_item_1) {
 						withId(android.R.id.text1) {
-							text(name)
+							text(it)
 						}
 					}
 				}

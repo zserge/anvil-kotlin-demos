@@ -33,13 +33,13 @@ class MainActivityTest : ActivityInstrumentationTestCase2<MainActivity>(MainActi
         };
     }
 
-    public fun testActivityShouldHaveThreeNames() {
+    fun testActivityShouldHaveThreeNames() {
         onView(withText("Alice")).check(isTopAlignedWith(withId(android.R.id.content)))
         onView(withText("Emily")).check(isBelow(withText("Alice")))
         onView(withText("Kate")).check(isBelow(withText("Emily")))
     }
 
-    public fun testClickChangesColor() {
+    fun testClickChangesColor() {
         onView(withText("Alice")).check(matches(withTextColor(`is`(Color.WHITE))))
         onView(withText("Emily")).check(matches(withTextColor(`is`(Color.WHITE))))
         onView(withText("Kate")).check(matches(withTextColor(`is`(Color.WHITE))))
