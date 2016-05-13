@@ -11,14 +11,14 @@ class MainActivityTest : ActivityInstrumentationTestCase2<MainActivity>(MainActi
 
 	override fun setUp() {
 		super.setUp()
-		getActivity()
+		activity
 	}
 
-	public fun testActivityShouldHaveHeader() {
+	fun testActivityShouldHaveHeader() {
 		onView(withText("Demo Header")).check(isTopAlignedWith(withId(android.R.id.content)))
 	}
 
-	public fun testActivityShouldHaveContent() {
+	fun testActivityShouldHaveContent() {
 		onView(withText("Content")).check(isBelow(withText("Demo Header")))
 	}
 }

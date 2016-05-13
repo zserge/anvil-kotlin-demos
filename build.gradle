@@ -6,7 +6,6 @@ buildscript {
 	}
 	dependencies {
 		classpath 'com.android.tools.build:gradle:2.1.0'
-		classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.0.0-beta-4584'
 		classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
 	}
 }
@@ -22,7 +21,7 @@ allprojects {
 	}
 
 	dependencies {
-		compile 'org.jetbrains.kotlin:kotlin-stdlib:1.0.0-beta-4584'
+		compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 		compile 'co.trikita:anvil-sdk15:0.4.0'
 
 		androidTestCompile 'com.android.support.test:runner:0.4.1'
@@ -49,9 +48,6 @@ allprojects {
 }
 repositories {
 	mavenCentral()
-}
-dependencies {
-	compile "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
 }
 android {
 	sourceSets {

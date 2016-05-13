@@ -39,7 +39,7 @@ class Counter(c: Context) : RenderableView(c) {
 		linearLayout {
 			orientation(LinearLayout.VERTICAL)
 			textView {
-				text("" + value)
+				text("$value")
 			}
 			button {
 				text("Reset")

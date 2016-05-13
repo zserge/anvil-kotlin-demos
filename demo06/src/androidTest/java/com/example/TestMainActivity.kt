@@ -11,10 +11,10 @@ class MainActivityTest : ActivityInstrumentationTestCase2<MainActivity>(MainActi
 
 	override fun setUp() {
 		super.setUp()
-		getActivity()
+		activity
 	}
 
-	public fun testActivityShouldHaveThreeNames() {
+	fun testActivityShouldHaveThreeNames() {
 		onView(withText("Alice")).check(isTopAlignedWith(withId(android.R.id.content)))
 		onView(withText("Emily")).check(isBelow(withText("Alice")))
 		onView(withText("Kate")).check(isBelow(withText("Emily")))
